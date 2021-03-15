@@ -14,6 +14,11 @@ HowTo 1:
 3) Kör "gradle apprun" i terminalfönster ståendes i projekt-rooten
 4) Gå till http://localhost:8080/position-service
 
+Fler länkar:<br>
+- http://localhost:8080/position-service?polygon=56.64%2010.8820%2056.64%2012.12%2057.73%2012.12%2057.73%2010.8820%2056.64%2010.8820 <br>
+- http://localhost:8080/position-service?polygon=57.64%2011.8820%2057.64%2012.12%2057.73%2012.12%2057.73%2011.8820%2057.64%2011.8820 <br>
+- (Shall give error-msg:) http://localhost:8080/position-service?polygon=57.64%2011.8820%2057.64%2012.12%2057.73%2012.12%2057.73%2011.8820%2057.64 <br>
+
 **12/3**
 
 - DataAccessLayer.java
